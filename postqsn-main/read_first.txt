@@ -1,0 +1,2 @@
+1.first create the tables with the particular field showing in image
+2.add your use name and password of db in "config.php"

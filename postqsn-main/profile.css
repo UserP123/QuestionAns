@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(158, 197, 231);
+}
+.que
+{
+    width: fit-content;
+    background-color: rgb(53, 104, 193);
+    border: 2px solid darkblue;
+    border-radius: 20%;
+    padding: 15px;
+    transition: transform .2s;
+    margin: auto;
+}
+.que:hover{
+
+    transform: scale(1.1);
+}
+#ques{
+    margin-left: 35%;
+}
+#q{
+    color: rgb(243, 245, 246);
+}
+
+#circle:hover{
+    background-color: rgb(117, 181, 227);
+    transition: all 0.5s ease;
+}
+#name
+{
+    /* margin-left: 35%;
+    width: fit-content; */
+    align-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px;
+    background: linear-gradient(0deg,rgb(94, 94, 181),lightblue);
+}
+#name:hover{
+    background-color: brown;
+}
+#ans
+{
+    background-color: rgb(0, 8, 255);
+    border-radius: 50%;
+}
+
+#std{
+    color: rgba(35, 34, 34, 0.818);
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(0deg,rgb(94, 94, 181),lightblue);
+    box-shadow: 5px 5px rgb(58, 58, 62);
+}
+#no{
+    color: rgb(237, 237, 231);
+    transition: transform .2s;
+    margin: auto;
+}
+
+#num{
+    color: rgb(237, 237, 231);
+    margin-left: 23px;
+}
+
+#mail{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
